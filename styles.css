@@ -256,14 +256,14 @@
   
    #projects a {
      text-decoration: none;
-     color: rgba(0, 0, 0, 0);
+     color: white;
      transition: ease-out 0.2s;
      font-weight: bold;
      font-size: 20px
    }
   
    #projects a:hover {
-     color: rgba(255, 255, 255, 1);
+     color: var(--green);
    }
   
    .intro h1 {
