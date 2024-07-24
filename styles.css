@@ -73,7 +73,7 @@
   
   #projects {
     height: auto;
-    width: 100%;
+    width: auto;
     background-color: var(--red);
     
   }
@@ -104,7 +104,7 @@
     grid-template-columns: 1fr 350px 350px 350px 1fr ;
     grid-template-rows: 100px 1fr 1fr 1fr;
     row-gap: 10px;
-    column-gap: 10px;
+    column-gap: 20px;
     padding-bottom: 20px;
     justify-items: center;
     align-items: center;
@@ -134,6 +134,13 @@
   .project-4 {
     display: grid;
     grid-column: 3 / 4;
+    grid-row: 3 / 4;
+    border: 3px var(--black) solid;
+  }
+
+  .project-5 {
+    display: grid;
+    grid-column: 2 / 3;
     grid-row: 3 / 4;
     border: 3px var(--black) solid;
   }
@@ -210,7 +217,7 @@
      margin: 0px;
   }
   
-  .project-1, .project-2, .project-3, .project-4 {
+  .project-1, .project-2, .project-3, .project-4, .project-5 {
      width: 350px;
      border: none;
      padding: 0px;
@@ -235,7 +242,7 @@
     align-items: center;
    }
   
-   .project-1, .project-2, .project-3, .project-4 {
+   .project-1, .project-2, .project-3, .project-4, .project-5 {
      width: 213px;
      display: flex;
      flex-direction: column;
@@ -257,18 +264,19 @@
   
    #projects a {
      text-decoration: none;
-     color: white;
+     color: rgba(0, 0, 0, 0);
      transition: ease-out 0.2s;
      font-weight: bold;
      font-size: 20px
    }
   
    #projects a:hover {
-     color: var(--green);
+     color: rgba(255, 255, 255, 1);
    }
   
    .intro h1 {
      font-size: 40px
    }
   }
+  
   
