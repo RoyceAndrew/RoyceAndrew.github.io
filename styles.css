@@ -7,9 +7,9 @@
   }
   
   :root {
-    --green: rgb(150, 200, 150);
-    --red: rgb(200, 150, 150);
-    --black: rgb(70, 70, 70);
+    --green: rgb(175, 130, 96);
+    --red: rgb(128, 61, 59);
+    --black: rgb(50, 44, 43);
   }
   
   header {
@@ -40,7 +40,7 @@
   }
   
   a.nav:hover {
-    background-color: rgba(200, 150, 150, 0.7);
+    background-color: rgba(228, 197, 158, 0.7);
     height: 46px;
     align-items: center;
     display: flex;
