@@ -215,7 +215,7 @@
    }
   
    .project-name {
-     background-color: rgb(70, 70, 70);
+     background-color: var(--black);
      height: 40px;
      display: flex;
      align-items: center;
